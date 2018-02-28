@@ -24,6 +24,7 @@ http://www.tooplate.com/view/2091-ziggy
         <link rel="stylesheet" href="css/bootstrap-theme.min.css">
         <link rel="stylesheet" href="css/fontAwesome.css">
         <link rel="stylesheet" href="css/tooplate-style.css">
+        <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
 
         <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
         
@@ -101,8 +102,7 @@ function closeNav() {
   <a href="#">Hizmetlerimiz</a>
   <a href="#" >Referanslarımız</a>
   <a href="#">İletişim</a>
-  <div style="position:absolute;bottom:0;width: 100%; text-align: center;">
-	<span class = fas fa-facebook></span>  	
+  <div style="position:absolute;bottom:0;width: 100%; text-align: center;">  	
   	<hr>
 	<p style="font-size:16px;color:white;">Berat Yapı & Dekorasyon</p>
   </div>
@@ -131,14 +131,21 @@ function closeNav() {
 
         <section class="second-section">
           <div class="container">
+
             <div class="row">
+            <h1 style="text-align:center">Hakkımızda</h1>
+<p style="text-align:center;">Lorem Ipsum, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir. Lorem Ipsum, adı bilinmeyen bir matbaacının bir hurufat numune kitabı oluşturmak orem Ipsum, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir. Lorem Ipsum, adı bilinmeyen bir matbaacının bir hurufat numune kitabı oluşturmak üzere bir yazı galerisini alarak karıştırdığı 1500'lerden beri endüstri standardı sahte metinler olarak kullanılmıştır. Beşyüz yıl boyunca varlığını sürdürmekle kalmamış, aynı zamanda pek değişmeden elektronik dizgiye de sıçramıştır. 1960'larda Lorem Ipsum pasajları da içeren Letraset yapraklarının yayınlanması ile ve yakın zamanda Aldus PageMaker gibi Lorem Ipsum sürümleri içeren masaüstü yayıncılık yazılımları ile popüler olmuştur.</p>
+<p style="text-align:center;"><img style="width:300px;height:150px;" src="img/berat.jpg" alt="Logo"></p> <br><br>
               <div class="col-md-3 col-sm-6">
                 <div class="service-item">
                   <div class="icon">
                     <img src="img/first-icon.png" alt="">
+                    
                   </div>
-                  <h4>Quick Editing</h4>
+                	
+                  <h4>Yapı & Dekorasyon</h4>
                   <p>Aliquam ex velit, viverra eu tristique vel, rhoncus nec ligula. In vel massa sed dolor pharetra interdum vitae posuere.</p>
+ 							<br>               
                 </div>
               </div>
               <div class="col-md-3 col-sm-6">
@@ -146,7 +153,7 @@ function closeNav() {
                   <div class="icon">
                     <img src="img/second-icon.png" alt="">
                   </div>
-                  <h4>Responsive Layout</h4>
+                  <h4>Teknolojik Çözümler</h4>
                   <p>Sed pulvinar ipsum id leo volutpat, in convallis lectus molestie. Aliquam nisi sapien, faucibus eu consequat id, egestas vitae augue.</p>
                 </div>
               </div>
@@ -155,8 +162,9 @@ function closeNav() {
                   <div class="icon">
                     <img src="img/third-icon.png" alt="">
                   </div>
-                  <h4>Quick Support</h4>
+                  <h4>Kişiselleştirilmiş Hizmet</h4>
                   <p>Aliquam ex velit, viverra eu tristique vel, rhoncus nec ligula. In vel massa sed dolor pharetra interdum vitae posuere.</p>
+							<br>                
                 </div>
               </div>
               <div class="col-md-3 col-sm-6">
@@ -164,16 +172,14 @@ function closeNav() {
                   <div class="icon">
                     <img src="img/fourth-icon.png" alt="">
                   </div>
-                  <h4>Voice Chat</h4>
+                  <h4>Sorunsuz İletişim</h4>
                   <p>Sed pulvinar ipsum id leo volutpat, in convallis lectus molestie. Aliquam nisi sapien, faucibus eu consequat id, egestas vitae augue.</p>
                 </div>
               </div>
             </div>
           </div>
         </section>
-<h1 style="text-align:center;">Hakkımızda</h1>
-<p style="text-align:center;">Lorem Ipsum, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir. Lorem Ipsum, adı bilinmeyen bir matbaacının bir hurufat numune kitabı oluşturmak orem Ipsum, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir. Lorem Ipsum, adı bilinmeyen bir matbaacının bir hurufat numune kitabı oluşturmak üzere bir yazı galerisini alarak karıştırdığı 1500'lerden beri endüstri standardı sahte metinler olarak kullanılmıştır. Beşyüz yıl boyunca varlığını sürdürmekle kalmamış, aynı zamanda pek değişmeden elektronik dizgiye de sıçramıştır. 1960'larda Lorem Ipsum pasajları da içeren Letraset yapraklarının yayınlanması ile ve yakın zamanda Aldus PageMaker gibi Lorem Ipsum sürümleri içeren masaüstü yayıncılık yazılımları ile popüler olmuştur.</p>
-<p style="text-align:center;"><img style="width:300px;height:150px;" src="img/berat.jpg" alt="Logo"></p>       
+      
 
         <section class="fourth-section">
           <div class="container">
