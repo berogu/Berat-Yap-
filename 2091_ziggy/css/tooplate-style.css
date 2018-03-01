@@ -31,7 +31,7 @@ p {
 	padding: 10px 18px;
 	display: inline-block;
 	border-radius: 24px;
-	font-size: 11px;
+	font-size: 15px;
 	text-transform: uppercase;
 	font-weight: 700;
 	letter-spacing: 1px;
@@ -159,7 +159,7 @@ p {
 
 .fourth-section .col-md-3 {
 	padding-left: 0px;
-	padding-right: 0px;
+	padding-right: 5px;
 }
 
 .fourth-section .portfolio-item img {
@@ -195,9 +195,9 @@ p {
 }
 
 .fourth-section .send-to-portfolio {
-	background-color: #415b90;
+	background-color: #4f6cd1e6;
 	text-align: center;
-	padding:  46.7% 0px;
+	padding:  31% 0px;
 }
 
 .fourth-section .send-to-portfolio span {
@@ -434,20 +434,21 @@ footer a:hover {
 ======================*/
 
 .first-gallery-section {
-	background-image: url(../img/heading-bg.png);
+	background-image: url(../img/hak.jpg);
+	background:linear-gradient( rgba(45, 45, 45, 0.77), rgba(0, 0, 0, 0.54) ), url(../img/hak.jpg);
 	background-size: cover;
 	width: 100%;
 	background-repeat: no-repeat;
-	padding: 10% 0px 15% 0px;
+	padding: 0% 0px 15% 0px;
 }
 
 .first-gallery-section .text-content {
 	text-align: right;
-	color: #fff;
+	color: black;
 }
 
 .first-gallery-section .text-content h2 {
-	font-size: 44px;
+	font-size: 30px;
 	text-transform: uppercase;
 	font-weight: 900;
 	letter-spacing: 1px;
@@ -468,12 +469,12 @@ footer a:hover {
 }
 
 .send-to-home  {
-	margin-top: 100px;
+	margin-top: 25px;
 	margin-bottom: 50px;
 }
 
 .send-to-home .back-to-home {
-	background-color: #415b90;
+	background-color: white;
 	text-align: center;
 	padding: 45px 0px;
 }
@@ -489,8 +490,8 @@ footer a:hover {
 }
 
 .send-to-home .back-to-home .primary-button a {
-	background-color: #fff;
-	color: #415b90;
+	background-color: #777cd7;
+	color: white;
 }
 
 .send-to-home .back-to-home .primary-button a:hover {

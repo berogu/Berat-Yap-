@@ -77,8 +77,8 @@ http://www.tooplate.com/view/2091-ziggy
                                 <a href="img/alci.jpg" data-lightbox="image-1"><img src="img/alci.jpg"></a>
                               </div>
                               <div class="text">
-                                
-                                <h4>Alçı Sıva & Alçıpan </h4>
+                                <span>Nature</span>
+                                <h4>Robotic Light</h4>
                               </div>
                             </div>
                             <div class="col-md-3 col-sm-6 project-item mix webdesign">
@@ -86,8 +86,8 @@ http://www.tooplate.com/view/2091-ziggy
                                 <a href="img/boya.jpg" data-lightbox="image-1"><img src="img/boya.jpg"></a>
                               </div>
                               <div class="text">
-                                
-                                <h4>Boya & Badana</h4>
+                                <span>Web Design</span>
+                                <h4>Rock Solid</h4>
                               </div>
                             </div>
                             <div class="col-md-3 col-sm-6 project-item mix responsive">
@@ -95,8 +95,8 @@ http://www.tooplate.com/view/2091-ziggy
                                 <a href="img/dolap.jpg" data-lightbox="image-1"><img src="img/dolap.jpg"></a>
                               </div>
                               <div class="text">
-                              
-                                <h4>Mutfak Dolapları</h4>
+                                <span>Responsive</span>
+                                <h4>Minimal Capture</h4>
                               </div>
                             </div>
                             <div class="col-md-3 col-sm-6 project-item mix creative nature">
@@ -104,8 +104,8 @@ http://www.tooplate.com/view/2091-ziggy
                                 <a href="img/duvar.jpg" data-lightbox="image-1"><img src="img/duvar.jpg"></a>
                               </div>
                               <div class="text">
-                                
-                                <h4>Duvar Kağıdı</h4>
+                                <span>Creative / Nature</span>
+                                <h4>Tattoo Lovers</h4>
                               </div>
                             </div>
                             <div class="col-md-3 col-sm-6 project-item mix creative">
@@ -113,8 +113,8 @@ http://www.tooplate.com/view/2091-ziggy
                                 <a href="img/asma.jpg" data-lightbox="image-1"><img src="img/asma.jpg"></a>
                               </div>
                               <div class="text">
-                                
-                                <h4>Asma & Tavan</h4>
+                                <span>Creative</span>
+                                <h4>Develope &amp; Coding</h4>
                               </div>
                             </div>
                             <div class="col-md-3 col-sm-6 project-item mix responsive webdesign">
@@ -122,8 +122,8 @@ http://www.tooplate.com/view/2091-ziggy
                                 <a href="img/balkon.jpg" data-lightbox="image-1"><img src="img/balkon.jpg"></a>
                               </div>
                               <div class="text">
-                              
-                                <h4>Cam Balkon</h4>
+                                <span>Responsive / Web Design</span>
+                                <h4>Network Inspire</h4>
                               </div>
                             </div>
                             <div class="col-md-3 col-sm-6 project-item mix webdesign">
@@ -131,8 +131,8 @@ http://www.tooplate.com/view/2091-ziggy
                                 <a href="img/kapi.jpg" data-lightbox="image-1"><img src="img/kapi.jpg"></a>
                               </div>
                               <div class="text">
-                                
-                                <h4>Çelik Kapı</h4>
+                                <span>Web Design</span>
+                                <h4>Start From Scatch</h4>
                               </div>
                             </div>
                             <div class="col-md-3 col-sm-6 project-item mix nature">
@@ -140,8 +140,8 @@ http://www.tooplate.com/view/2091-ziggy
                                 <a href="img/banyo.jpg" data-lightbox="image-1"><img src="img/banyo.jpg"></a>
                               </div>
                               <div class="text">
-                               
-                                <h4>Banyo Tadilatı</h4>
+                                <span>Nature</span>
+                                <h4>Stay Safe Watch</h4>
                               </div>
                             </div>
                         </div>

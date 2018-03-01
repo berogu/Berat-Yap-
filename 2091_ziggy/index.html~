@@ -135,7 +135,7 @@ function closeNav() {
             <div class="row">
             <h1 style="text-align:center">Hakkımızda</h1>
 <p style="text-align:center;">Lorem Ipsum, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir. Lorem Ipsum, adı bilinmeyen bir matbaacının bir hurufat numune kitabı oluşturmak orem Ipsum, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir. Lorem Ipsum, adı bilinmeyen bir matbaacının bir hurufat numune kitabı oluşturmak üzere bir yazı galerisini alarak karıştırdığı 1500'lerden beri endüstri standardı sahte metinler olarak kullanılmıştır. Beşyüz yıl boyunca varlığını sürdürmekle kalmamış, aynı zamanda pek değişmeden elektronik dizgiye de sıçramıştır. 1960'larda Lorem Ipsum pasajları da içeren Letraset yapraklarının yayınlanması ile ve yakın zamanda Aldus PageMaker gibi Lorem Ipsum sürümleri içeren masaüstü yayıncılık yazılımları ile popüler olmuştur.</p>
-<p style="text-align:center;"><img style="width:300px;height:150px;" src="img/berat.jpg" alt="Logo"></p> <br><br>
+<br><br><p style="text-align:center;"><img style="width:300px;height:150px;" src="img/berat.jpg" alt="Logo"></p> <br><br>
               <div class="col-md-3 col-sm-6">
                 <div class="service-item">
                   <div class="icon">
@@ -180,48 +180,49 @@ function closeNav() {
           </div>
         </section>
       
-
-        <section class="fourth-section">
+ 
+        <section class="fourth-section" style="padding:10px";>
+        <h2 style="text-align:center">Hizmetlerimiz</h2><br>
           <div class="container">
             <div class="row">
               <div class="col-md-3 col-sm-6">
                 <div class="portfolio-item first-item">
                   <div class="image">
-                    <a href="img/01-big-item.jpg" data-lightbox="image-1"><img src="img/first-item.jpg"></a>
+                    <a href="img/dolap.jpg" data-lightbox="image-1"><img src="img/dolap.jpg"></a><br>
                   </div>
                   <div class="text">
-                    <span>Nature</span>
-                    <h4>Robotic Light</h4>
+                    
+                    <h4>Mutfak Dolabı</h4>
                   </div>
                 </div>
               </div>
               <div class="col-md-3 col-sm-6">
                 <div class="portfolio-item second-item">
                   <div class="image">
-                    <a href="img/02-big-item.jpg" data-lightbox="image-1"><img src="img/second-item.jpg"></a>
+                    <a href="img/boya.jpg" data-lightbox="image-1"><img src="img/boya.jpg"></a>
                   </div>
                   <div class="text">
-                    <span>Architect</span>
-                    <h4>Rock Solid</h4>
+                    
+                    <h4>Boya & Badana</h4>
                   </div>
                 </div>
               </div>
               <div class="col-md-3 col-sm-6">
                 <div class="portfolio-item third-item">
                   <div class="image">
-                    <a href="img/03-big-item.jpg" data-lightbox="image-1"><img src="img/third-item.jpg"></a>
+                    <a href="img/alci.jpg" data-lightbox="image-1"><img src="img/alci.jpg"></a>
                   </div>
                   <div class="text">
-                    <span>Focus</span>
-                    <h4>Clean Design</h4>
+                    
+                    <h4>Alçı Sıva & Alçıpan</h4>
                   </div>
                 </div>
               </div>
               <div class="col-md-3 col-sm-6">
                 <div class="send-to-portfolio">
-                  <span>Do you want to see more?</span>
+                  <span>Hizmetlerimizin tamamı için tıklayınız</span>
                   <div class="primary-button">
-                    <a href="portfolio-page.html">Visit gallery</a>
+                    <a href="portfolio-page.html">Hizmetlerimiz</a>
                   </div>
                 </div>
               </div>
