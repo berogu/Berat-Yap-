@@ -34,8 +34,11 @@ http://www.tooplate.com/view/2091-ziggy
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   
-   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="owl/dist/owl.carousel.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="owl/dist/assets/owl.carousel.min.css"> 
+<link rel="stylesheet" href="owl/dist/assets/owl.theme.default.min.css">  
   
   
   <script>
@@ -43,14 +46,22 @@ http://www.tooplate.com/view/2091-ziggy
 
 
     $(document).ready(function(){
-      $(window).scroll(function() { // check if scroll event happened
+    	if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)  ) {
+      
+      } else {
+			$(window).scroll(function() { // check if scroll event happened
+      	console.log($(".scroll"));
         if ($(document).scrollTop() > 50) { // check if user scrolled more than 50 from top of the browser window
-          $(".scroll").css("background-color", "#f8f8f8"); // if yes, then change the color of class "navbar-fixed-top" to white (#f8f8f8)
+          $("#myNavbar").css("background-color", "white");
+          $("#myNavbar a").css("color", "black"); // if yes, then change the color of class "navbar-fixed-top" to white (#f8f8f8)
         } else {
-          $(".scroll").css("background-color", "transparent"); // if not, change it back to transparent
+          $("#myNavbar").css("background-color", "transparent");
+          $("#myNavbar a").css("color", "white"); // if not, change it back to transparent
         }
-      });
+      });      
+      }
     });
+    
 </script>
 
 
@@ -82,6 +93,7 @@ function myFunction() {
   position: fixed;
   top: 0;
   width: 100%;
+  z-index: 999;
   
 }
 
@@ -269,17 +281,28 @@ function myFunction() {
           </div>
         </section>
 
+
         <section class="fivth-section">
           <div class="container">
             <div class="row">
               <div class="col-md-10 col-md-offset-1"> 
-                <div class="left-text col-md-8">
-                  <h4><em>Aliquam efficitur</em><br>augue et libero vulputate feugiat</h4>
-                  <p>Mauris eget orci porta, aliquam neque sit amet, porttitor dui. Donec efficitur vehicula justo quis varius. Vivamus pharetra lorem eget turpis ornare tempus. Vivamus ac sodales lectus. Morbi rhoncus feugiat neque ultrices rhoncus. Maecenas ultrices, nisl pellentesque hendrerit dignissim, ante purus hendrerit urna, eu tristique est massa quis risus.</p>
-                </div>
-                <div class="right-image col-md-4">
-                  <img src="img/right-image.png" alt="">
-                </div>
+                				<h3 style="text-align:center;color: white;">Referanslarımız</h3><br>
+                        <div class="owl-carousel owl-theme">
+    <div class="item"><img src="https://www.logovector.org/wp-content/uploads/logos/png/t/teknosa_logo.png" alt=""></div>
+    <div class="item"><img src="https://www.logovector.org/wp-content/uploads/logos/png/t/teknosa_logo.png" alt=""></div>
+    <div class="item"><img src="https://www.logovector.org/wp-content/uploads/logos/png/t/teknosa_logo.png" alt=""></div>
+    <div class="item"><img src="https://www.logovector.org/wp-content/uploads/logos/png/t/teknosa_logo.png" alt=""></div>
+    <div class="item"><img src="https://www.logovector.org/wp-content/uploads/logos/png/t/teknosa_logo.png" alt=""></div>
+    <div class="item"><img src="https://www.logovector.org/wp-content/uploads/logos/png/t/teknosa_logo.png" alt=""></div>
+    <div class="item"><img src="https://www.logovector.org/wp-content/uploads/logos/png/t/teknosa_logo.png" alt=""></div>
+    <div class="item"><img src="https://www.logovector.org/wp-content/uploads/logos/png/t/teknosa_logo.png" alt=""></div>
+    <div class="item"><img src="https://www.logovector.org/wp-content/uploads/logos/png/t/teknosa_logo.png" alt=""></div>
+    <div class="item"><img src="https://www.logovector.org/wp-content/uploads/logos/png/t/teknosa_logo.png" alt=""></div>
+    <div class="item"><img src="https://www.logovector.org/wp-content/uploads/logos/png/t/teknosa_logo.png" alt=""></div>
+    <div class="item"><img src="https://www.logovector.org/wp-content/uploads/logos/png/t/teknosa_logo.png" alt=""></div>
+</div>
+                  
+                
               </div>
             </div>
           </div>
@@ -353,6 +376,32 @@ function myFunction() {
 
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
+        
+        <script>
+$(document).ready(function() {
+$('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    responsiveClass:true,
+    responsive:{
+        0:{
+            items:1,
+            nav:true
+        },
+        600:{
+            items:3,
+            nav:false
+        },
+        1000:{
+            items:5,
+            nav:true,
+            loop:false
+        }
+    }
+});
+});
+</script>
+
 
     </body>
 </html>

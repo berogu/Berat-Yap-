@@ -435,7 +435,7 @@ footer a:hover {
 
 .first-gallery-section {
 	background-image: url(../img/hak.jpg);
-	background:linear-gradient( rgba(45, 45, 45, 0.77), rgba(175, 72, 72, 0.33) ), url(../img/hak.jpg);
+	background:linear-gradient( rgba(45, 45, 45, 0.77), rgba(0, 0, 0, 0.54) ), url(../img/hak.jpg);
 	background-size: cover;
 	width: 100%;
 	background-repeat: no-repeat;

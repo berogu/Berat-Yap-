@@ -231,7 +231,8 @@ p {
 	background-size: cover;
 	width: 100%;
 	background-repeat: no-repeat;
-	padding: 20% 0px;
+	padding: 15% 0px;
+	margin: 100px 0px 0px 0px;
 }
 
 .fivth-section .right-image {
