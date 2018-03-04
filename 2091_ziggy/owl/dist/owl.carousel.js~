@@ -2747,7 +2747,7 @@
 		 * @type {Object}
 		 */
 		this._overrides = {
-			next: this._core.next,
+			>: this._core.next,
 			prev: this._core.prev,
 			to: this._core.to
 		};
