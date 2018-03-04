@@ -43,7 +43,7 @@ p {
 =======================*/
 
 .first-section {
-	background: linear-gradient( rgba(45, 45, 45, 0.77), rgba(175, 72, 72, 0.33) ), url(../img/first-section-bg.png);
+	background: linear-gradient( rgba(45, 45, 45, 0.77), rgba(239, 240, 250, 0.3) ), url(../img/berat2.png);
 	background-size: cover;
 	width: 100%;
 	background-repeat: no-repeat;
