@@ -47,9 +47,11 @@
                     if ($(document).scrollTop() > 50) { // check if user scrolled more than 50 from top of the browser window
                       $("#myNavbar").css("background-color", "white");
                       $("#myNavbar a").css("color", "black"); // if yes, then change the color of class "navbar-fixed-top" to white (#f8f8f8)
+                      $("#myNavbar a:hover").css("color","grey");
                     } else {
                       $("#myNavbar").css("background-color", "transparent");
-                      $("#myNavbar a").css("color", "white"); // if not, change it back to transparent
+                      $("#myNavbar a").css("color", "white"); 
+                      $("#myNavbar a:hover").css("color","white");// if not, change it back to transparent
                     }
                   });      
               }
@@ -91,7 +93,9 @@
             }
             .navbar a:hover {
             background-color: transparent;
-            color: grey;
+            
+            border:1px solid black;
+            
             }
             .navbar a.active {
             }
@@ -171,7 +175,7 @@
                     <div class="icon">
                       <img src="img/second-icon.png" alt="">
                     </div>
-                    <h4>Teknolojik Çözümler</h4>
+                    <h4>Yenilikçi Çözümler</h4>
                     <p>Sed pulvinar ipsum id leo volutpat, in convallis lectus molestie. Aliquam nisi sapien, faucibus eu consequat id, egestas vitae augue.</p>
                   </div>
                 </div>
@@ -218,7 +222,7 @@
                       <a href="img/boya.jpg" data-lightbox="image-1"><img src="img/boya.jpg"></a>
                     </div>
                     <div class="text">
-                      <h4>Boya & Badana</h4>
+                      <h4>Boya Uygulama</h4>
                     </div>
                   </div>
                 </div>
@@ -228,7 +232,7 @@
                       <a href="img/alci.jpg" data-lightbox="image-1"><img src="img/alci.jpg"></a>
                     </div>
                     <div class="text">
-                      <h4>Alçı Sıva & Alçıpan</h4>
+                      <h4>Alçı Sıva</h4>
                     </div>
                   </div>
                 </div>
@@ -321,8 +325,8 @@
 <script>
 function myMap() {
 var mapProp= {
-    center:new google.maps.LatLng(51.508742,-0.120850),
-    zoom:5,
+    center:new google.maps.LatLng(40.082410, 29.507856),
+    zoom:19,
 };
 var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
 }
@@ -333,15 +337,9 @@ var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
             <div class="container">
               <div class="row">
                 <div class="col-md-12">
-                  <ul>
-                    <li><a href="https://www.facebook.com/tooplate"><i class="fa fa-facebook"></i></a></li>
-                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                    <li><a href="#"><i class="fa fa-rss"></i></a></li>
-                    <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-                  </ul>
-                  <p>Copyright &copy; 2017 Company Name 
-                    | Design: <a href="http://www.tooplate.com" target="_parent">Tooplate</a>
+                 
+                  <p>Copyright &copy; 2018 Berat Yapı & Dekorasyon
+                    | Design:Fijital</a>
                   </p>
                 </div>
               </div>
@@ -354,6 +352,8 @@ var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
             $(document).ready(function() {
             $('.owl-carousel').owlCarousel({
                 loop:true,
+                navText:['<<','>>'],
+                
                 margin:10,
                 responsiveClass:true,
                 responsive:{
